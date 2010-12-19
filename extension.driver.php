@@ -28,14 +28,14 @@
 
 		public function __appendAssets($context)
 		{
-			$callback = $this->_Parent->getPageCallback();
+			//$callback = $this->_Parent->getPageCallback();
 
-			if ($callback['driver'] == 'publish' && ($callback['context']['page'] == 'index' || $callback['context']['page'] == 'edit'))
-			{
+			//if ($callback['driver'] == 'publish' && ($callback['context']['page'] == 'index' || $callback['context']['page'] == 'edit'))
+			//{
 				$page = Administration::instance()->Page;
 				
 				$page->addScriptToHead(URL . '/extensions/piano/assets/piano.js', 105);
-			}
+			//}
 		}
 
 	}

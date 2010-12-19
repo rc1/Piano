@@ -5,6 +5,7 @@
             jQuery('input:[name="action[save]"]').click();
             return false;	   
       	}
+      	
       	// New
       	if(e.keyCode == 78 && e.metaKey || e.keyCode == 78 && e.ctrlKey) { 
             var $newPageLink = jQuery('p#notice a:[href$="new/"]');
