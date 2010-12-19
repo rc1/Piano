@@ -7,7 +7,7 @@ Status:
 * Proof of concept
     * implements: &#8984;+S and &#8984;+N
 * Missing
-    * PC Support.
+    * PC Support (Not tested).
 * Future
     * More:
     	* Delete selected when listing entries 
