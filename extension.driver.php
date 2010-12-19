@@ -1,6 +1,6 @@
 <?php
 
-	class extension_thumbnail extends Extension {
+	class extension_piano extends Extension {
 
 		public function about(){
 			return array(
@@ -34,7 +34,7 @@
 			{
 				$page = Administration::instance()->Page;
 				
-				$page->addScriptToHead(URL . '/extensions/thumbnail/assets/piano.js', 105);
+				$page->addScriptToHead(URL . '/extensions/piano/assets/piano.js', 105);
 			}
 		}
 
