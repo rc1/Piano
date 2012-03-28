@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <extension id="piano" xmlns="http://symphony-cms.com/schemas/extension/1.0">
-	<name>Piano: Keyboard Shortcuts Extension for Symphony Extension</name>
+	<name>Piano</name>
 	<description>A Symphony CMS extension that enables the use of the keyboard shortcuts (Currently ⌘+S and ⌘+N to save and create new entries respectively.)</description>
 	<repo type="github">https://github.com/theworkers/piano</repo>
 	<authors>
